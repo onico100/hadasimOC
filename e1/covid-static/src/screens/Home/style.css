@@ -1,0 +1,23 @@
+.add-patient {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -10%;
+    position: absolute;
+    top: 10%;
+    cursor: pointer;
+}
+
+.add-patient> :first-child {
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px 1px lightgrey;
+}
+
+.add-patient> :first-child:active {
+    box-shadow: none;   
+}

@@ -1,0 +1,23 @@
+.app-card:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.patient-actions {
+    background-color: #135e76;
+    width: fit-content;
+    min-width: 100px;
+    border-radius: 15px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin:3%;
+    align-items: center;
+    justify-content: center;
+}
+
+.patient-actions>* {
+    cursor: pointer;
+    color: white;
+}

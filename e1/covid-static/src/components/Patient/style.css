@@ -1,0 +1,13 @@
+.header {
+    position: relative;
+    top: 10%;
+    font-family: Sora, sens-serif;
+    font-size: 22px;
+}
+
+.form-container{
+    gap: 20%;
+    display: grid;
+    grid-template-columns: auto auto;
+    min-height: 350px;
+}

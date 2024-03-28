@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<VBox fx:id="all" alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.e2.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label fx:id="chooseOption" text="please enter your choice"/>
+    <Button fx:id="rec" text="rectangle" onAction="#rectangle"/>
+    <Button fx:id="tri" text="triangular" onAction="#triangular"/>
+    <Button fx:id="ex" text="exit" onAction="#close"/>
+
+</VBox>
